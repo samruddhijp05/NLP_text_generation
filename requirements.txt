@@ -1,0 +1,30 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+%matplotlib inline
+
+import re
+from nltk.corpus import stopwords
+import string
+
+import keras
+import tensorflow as tf
+from keras.preprocessing.text import Tokenizer
+from keras.utils.vis_utils import plot_model
+from tensorflow.keras.utils import to_categorical
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.preprocessing.sequence import pad_sequences
+from keras.utils.vis_utils import plot_model
+from keras.models import Sequential
+from keras.layers import LSTM
+from keras.layers import Dense
+from keras.layers import Flatten
+from keras.layers import Embedding
+from keras.layers.convolutional import Conv1D
+from keras.layers.convolutional import MaxPooling1D
+from tensorflow.keras.optimizers import Adam
+
+import pickle
